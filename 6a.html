@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>heure</title>
+</head>
+<body>
+   <script>
+   console.log ('heure')
+   const heure = "08:30";
+   console.log ("08:30");
+   console.log ('bonjour');
+   const date = new Date();
+   constheure = date.getHours();
+const minutes = date.getMinutes();
+const secondes = date.getSeconds();
+const heureFormat24 = (heure < 10 ? '0' : '') + heure;
+const minutesFormat = (minutes < 10 ? '0' : '') + minutes;
+const secondesFormat = (secondes < 10 ? '0' : '') + secondes;
+console.log(`${heureFormat24}:${minutesFormat}:${secondesFormat}`);
+    
+
+   </script>
+
+
+    
+</body>
+</html>
